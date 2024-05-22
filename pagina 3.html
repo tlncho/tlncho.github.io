@@ -6,7 +6,8 @@
     <title>formulario</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body class="body 3">
+<body class="body3">
+    <h1 id="formulario">Formulario</h1>
     <div class="contenedor">
         <nav class="navegacion">
             <ul class="estilo">
@@ -18,6 +19,45 @@
     
         </nav>
     </div>
+    <div class="titulo">
+        <h1 >Ingrese sus datos para convertirse en socio</h1>
     </div>
+    
+    <div class="contenedor3"> 
+     <div class="form">
+        <form id="form" autocomplete="off">
+        <label for="nombre" class="letra">Nombre</label>
+        <br>
+        <input type="text" id="nombre" class="input" onfocus="limpiarErrores(event)"><br>
+         <br>
+        <label for="apellido" class="letra" >Apellido</label>
+        <br>
+        <input type="text" id="apellido" class="input" onfocus="limpiarErrores(event)"><br>
+        <br>
+        <label for="correo" class="letra">Correo electrónico</label>
+        <br>
+       
+        <input type="email" id="correo" class="input" onfocus="limpiarErrores(event)"><br>
+       <br>
+        <label for="telefono" class="letra">celular</label>
+        <br>
+       
+        <input type="text" id="telefono" class="input" onfocus="limpiarErrores(event)"><br>
+        <br>
+         <button type="submit" onclick="return validar()" style="background-color: yellow;"> Enviar formulario</button>
+           
+        </form>
+        <br>
+        <div id="contenido" >
+            <ul id="datos">
+
+
+            </ul>
+        </div>
+        </div>
+       
+        </div>
+        
+   <script src="script.js"></script>
 </body>
 </html>
