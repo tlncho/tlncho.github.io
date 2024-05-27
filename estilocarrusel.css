@@ -42,3 +42,9 @@ transform: scale(1.2,1.2);
     right: 2%;
     top: calc(50%-70%);
 }
+#imagenes{
+    transition: opacity 0.5s ease-in-out;
+}
+img{
+    border-radius:10px;
+}

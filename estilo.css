@@ -29,7 +29,7 @@ a:hover{
 
     align-items: center;
     justify-content: center;
-
+}
    
     .navegacion{
       
@@ -46,15 +46,14 @@ a:hover{
     
     background-image: url(Imagenes/Div.jpeg);
     background-repeat: no-repeat;
- 
+    }
      
 .estilo :hover{
     background-color:gold;
 }
-        }
- }
+ 
 
-.body2{
+
 #articulo{
 text-align: center;
 text-decoration: underline; 
@@ -66,100 +65,81 @@ color: yellow;
     display: flex;
    justify-content: space-between;
    margin-top: 100px;
+}
 .historia{
   
     height: 200px;
     width: 200px;
-    
+
     background-image: url(Imagenes/contenedo\ 1.jpg);
+}
     h2{
         color: yellow;
        background-color:rgba(32, 35, 234, 0.5) ;
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-}
+
    .articulos{ height: 200px;
     width: 200px;
     border: 1px solid;
     background-image: url(Imagenes/contenedor\ 2.png);
-    h2{
-
-        color: yellow;
-        background-color:rgba(32, 35, 234, 0.5) ;
-         text-align: center;
-         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    }
+   }
+   
    .entradas{ height: 200px;
     width: 200px;
     border: 1px solid;
 background-image: url(Imagenes/contenedor\ 3.jpg);
-h2{
+   }
 
-    color: yellow;
-    background-color:rgba(32, 35, 234, 0.5) ;
-     text-align: center;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-}
+
    .noticias{ height: 200px;
     width: 200px;border: 1px solid;
 background-image: url(Imagenes/contenedor\ 4.jpg);
-h2{
+   }
 
-    color: yellow;
-    background-color:rgba(32, 35, 234, 0.5) ;
-     text-align: center;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-}
+
    .partidos{ height: 200px;
     width: 200px;border: 1px solid;
     background-image: url(Imagenes/contenedor\ 5.jpg);
-    h2{
-
-        color: yellow;
-        background-color:rgba(32, 35, 234, 0.5) ;
-         text-align: center;
-         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
    }
+  
 
-}
-}
-.body3{
+
     #formulario{
         
         text-align: center;
         text-decoration: underline; /* Subraya el texto */
-        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+       
         color: yellow;
 }
 .titulo{
     display: flex;
     align-items: center;
     justify-content: center;
-    h1{ 
+  
+}
+.titulo h1{
+    
         text-align: center;
        
         box-shadow:0px 0px 10px 5px blue;
    
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
-        color: yellow;}
-   
-
+        color: yellow;
+    
 }
+      
+    
+
+
 .contenedor3{
-   
-display: flex;
+    display: flex;
 align-items: center;
 justify-content: center;
-
-
-
-.form{
-   
+}
+ .form{
+    
     padding-bottom: 10px;
    padding-top: 10px;
    background-color: rgba(255, 255, 255, 0.3);
@@ -168,13 +148,11 @@ justify-content: center;
     
     text-align: center;
    color: azure;
-
-  
 }
 
 
-}
-}
+
+
 .colorRojo{
     background-color: black;
     margin-top:10px ;

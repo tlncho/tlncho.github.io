@@ -8,6 +8,7 @@ let img=carrusel.querySelector('img');
 let tgt=e.target;
 if(tgt==atras){
 if(cont >0){
+
 img.src=imagenes[cont-1];
 cont--;
 }else{
