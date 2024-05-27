@@ -3,6 +3,7 @@ body{
 background-image:url(Imagenes/boca.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
+}
 #inicio{
 padding: 10px;
     color: yellow;
@@ -52,7 +53,7 @@ a:hover{
 }
         }
  }
-}
+
 .body2{
 #articulo{
 text-align: center;

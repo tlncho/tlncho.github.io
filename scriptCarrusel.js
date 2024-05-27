@@ -1,4 +1,4 @@
-let imagenes=['imagenes/boca 1.jpg','imagenes/boca 2.jpg','imagenes/boca 3.jpg','imagenes/boca 4.jpg','imagenes/boca 5.jpg','imagenes/boca 7.jpg','imagenes/boca 8.jpg','imagenes/boca 9.jpg','imagenes/boca 10.jpg','imagenes/boca 11.jpg','imagenes/boca 12.jpg','imagenes/boca 13.jpg','imagenes/boca 14.jpg','imagenes/boca 15.jpg'];
+let imagenes=['imagenes/boca1.jpg','imagenes/boca2.jpg','imagenes/boca3.jpg','imagenes/boca4.jpg','imagenes/boca5.jpg','imagenes/boca7.jpg','imagenes/boca8.jpg','imagenes/boca9.jpg','imagenes/boca10.jpg','imagenes/boca11.jpg','imagenes/boca12.jpg','imagenes/boca13.jpg','imagenes/boca14.jpg','imagenes/boca15.jpg'];
 let cont=0;
 function carrousel(carrusel) {
   carrusel.addEventListener('click', e=>{
