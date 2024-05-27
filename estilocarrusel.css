@@ -1,0 +1,44 @@
+.carrusel{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+justify-items: center;
+align-items: center;
+
+}
+
+.boton_atras, .boton_adelante{
+
+font-size: 30px;
+width: 70px;
+height: 70px;
+line-height: 70px;
+border-radius: 50%;
+background-color:blue;
+text-align: center;
+
+font-weight: bold;
+position: absolute;
+color: yellow;
+box-shadow: 0 0 10px rgba(255,255, 255, 0.6);
+-webkit-transition: all .3s ease;
+-o-transition:all .3s ease ;
+transition: all .3s ease;
+}
+.boton_atras:hover{
+cursor: pointer;
+transform: scale(1.2,1.2);
+}
+.boton_adelante:hover{
+    cursor: pointer;
+transform: scale(1.2,1.2);
+}
+.boton_atras{
+    left: 2%;
+    top: calc(50%-70%);
+}
+.boton_adelante{
+    right: 2%;
+    top: calc(50%-70%);
+}
