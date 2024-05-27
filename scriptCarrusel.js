@@ -7,24 +7,39 @@ let adelante=carrusel.querySelector('.boton_adelante');
 let img=carrusel.querySelector('img');
 let tgt=e.target;
 if(tgt==atras){
-if(cont >0){
-
-img.src=imagenes[cont-1];
-cont--;
-}else{
-    img.src=imagenes[imagenes.length-1];
-    cont=imagenes.length-1;
+  if(cont >0){
+    img.classList.add('hidden');
+    setTimeout(()=>{
+      img.src=imagenes[cont-1];
+      img.classList.remove('hidden');
+      cont--;
+    }, 500); 
+  } else {
+    img.classList.add('hidden');
+    setTimeout(()=>{
+      img.src=imagenes[imagenes.length-1];
+      img.classList.remove('hidden');
+      cont=imagenes.length-1;
+    }, 500);
+  }
+} else if(tgt==adelante){
+  if(cont < imagenes.length -1){
+    img.classList.add('hidden');
+    setTimeout(()=>{
+      img.src=imagenes[cont+1];
+      img.classList.remove('hidden');
+      cont++;
+    }, 500);
+  } else {
+    img.classList.add('hidden');
+    setTimeout(()=>{
+      img.src=imagenes[0];
+      img.classList.remove('hidden');
+      cont=0;
+    }, 500);
+  }
 }
-}else if(tgt==adelante){
-if(cont < imagenes.length -1){
-    img.src=imagenes[cont+1];
-    cont++;
-}else{
-    img.src=imagenes[0];
-    cont=0;
-}
-}
-  });
+});
 }
 document.addEventListener("DOMContentLoaded",()=>{
 let contenedor=document.querySelector('.carrusel');
